@@ -8,3 +8,15 @@
 Make sure to add this condition before the email send.
 
 
+## Add abandoned cart link 
+
+`?wck_rebuild_cart={{ event.extra.CartRebuildKey }}`
+
+example: 
+`https://digilab.org/demo/tts/basket/?wck_rebuild_cart={{ event.extra.CartRebuildKey }}`
+
+
+
+
+## Useful links
+Variable and Filter - https://developers.klaviyo.com/en/docs/glossary_of_variable_filters
